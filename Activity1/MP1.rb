@@ -1,6 +1,8 @@
 #Print your name and age using variables.
 
-name = "Sam"
-age = 21
+def nameAge(name, age)
+    puts "Name: #{name}"
+    puts "Age: #{age}"
+end
 
-puts "My name is #{name} and I am #{age} years old."
+nameAge("Samantha", 21)

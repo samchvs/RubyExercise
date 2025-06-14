@@ -1,9 +1,11 @@
 #Multiply two numbers, store the result, and print it.
 
+def multiply(num1 = 4, num2 = 3)
+    return num1*num2
+end
 
-num1 = 5
-num2 = 7
+def show
+    puts "The result is #{multiply}"
+end
 
-result = num1 * num2
-
-puts "The product of #{num1} and #{num2} is #{result}"
+show

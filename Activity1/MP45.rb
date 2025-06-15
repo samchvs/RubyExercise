@@ -7,4 +7,3 @@ def divide
     puts "The result is #{num}"
 end
 
-divide

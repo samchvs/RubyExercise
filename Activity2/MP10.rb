@@ -5,6 +5,6 @@ def findIndex
     array = ["USA", "Canada", "Mexico", "Germany", "France"]
     arrayIndex = array.index("Mexico")
 
-    puts "#{arrayIndex}"
+    puts "The index of Mexico is at #{arrayIndex}"
 end
 findIndex

@@ -13,6 +13,13 @@ def favorite_books
       title: "The Hunger Games",
       author: "Suzanne Collins"
     }
-    puts "The book two author is: #{book2[:author]}"
+    [book1, book2, book3].each_with_index do |book, id|
+        puts "Book: #{id + 1}:"
+        book.each do |key, value|
+            puts "#{key}: #{value}"
+        end
+        puts
+    end
+    puts "The book author of book two is: #{book2[:author]}"
 end
 favorite_books

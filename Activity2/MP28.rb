@@ -5,7 +5,7 @@ def fave_movie
       title: "The Shawshank Redemption",
       director: "Frank Darabont",
       year: 1995,
-      rating: 5
+      rating: 10
     }
     movies.each do |key, value|
             puts "#{key}: #{value}"
